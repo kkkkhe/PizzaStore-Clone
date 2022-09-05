@@ -1,0 +1,104 @@
+*{
+	font-family: 'Montserrat'
+}
+.cart{
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 39px;
+	display: flex;
+	gap: 17px;
+	align-items: center;
+}
+.a{
+color: red;
+}
+.b{
+font-weight: 700
+}
+.pizza__wrapper{
+	width: calc(100%);
+	padding-right: 25px;
+}
+::-webkit-scrollbar {
+    width: 5px; /* ширина для вертикального скролла */
+    background-color: #f3faf7;
+	&-thumb{
+		 background-color: #9b9b9b;
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #9b9b9b;
+	}
+}
+
+.clearCart{
+	font-weight: 400px;
+	font-size: 16px;
+	line-height: 19px;
+	color: #B6B6B6;
+	display: flex;
+	align-items: center;
+	gap: 7px;
+}
+
+.fakePizza{
+	width: 80px;
+	height: 80px;
+	background-color: orange;
+	border-radius: 50%;
+}
+.pizza__side{
+	display: flex;
+	gap: 15px;
+	align-items: center;
+}
+.action__side{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 93px;
+}
+.title{
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+}
+.info{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+}
+.button__wrapper{
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.action-button{
+	flex: 0 0 32px;
+	height: 32px;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	border: 1px solid #FE5F1E;
+	color: #FE5F1E;
+}
+.disable{
+	border-color: #e7b6a3;
+	color: #e7b6a3
+}
+.price{
+	font-weight: 700;
+	font-size: 20px;
+}
+.count{
+	font-size: 20px;
+	font-weight: 700;
+}
+.close{
+	flex: 0 0 32px;
+	height: 32px;
+	border-radius: 50%;
+	border: 2px solid #D7D7D7;
+	color: #D7D7D7;
+}

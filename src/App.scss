@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700;800&display=swap');
+}
+button {
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	/* отображаем курсор в виде руки при наведении; некоторые
+	считают, что необходимо оставлять стрелочный вид для кнопок */
+	cursor: pointer;
+  }

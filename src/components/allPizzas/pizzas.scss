@@ -1,0 +1,111 @@
+
+.body-main{
+	// display: grid;
+	&__title{
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 38px;
+		margin-bottom: 35px;
+	}
+	&__block{
+		display: grid;
+		justify-content: space-between;
+		grid-template-columns: repeat(4, auto);
+	}
+	.card-main{
+		display: grid;
+		grid-template-rows: 260px 100px 100px 70px;
+		align-items: center;
+		max-width: 280px;
+		margin-bottom: 41px;
+		&__title{
+			font-size: 20px;
+			font-weight: 800;
+			line-height: 24px;
+		}
+		&__category{
+			background-color: #F3F3F3;
+			padding: 7px;
+			width: 100%;
+			margin-bottom:17px;
+		}
+		&__types{
+			display: grid;
+			grid-auto-flow: column;
+			grid-template-rows: auto;
+		}
+		&__type{
+			font-size: 14px;
+			width: 100%;
+			font-weight: 700;
+			line-height: 17px;
+			font-family: 'Montserrat';
+			transition: all 0.1s ease;
+			padding: 12px 0;
+			&-active{
+				background-color: #fff;
+				border-radius: 5px;
+			}
+		}
+		&__diameter{
+			flex: 0 0 33.333%;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 17px;
+			font-family: 'Montserrat';
+			transition: all 0.1s ease;
+			padding: 12px 0;
+			margin-top: 7px;
+			&-active{
+				background-color: #fff;
+				border-radius: 5px;
+			}
+		}
+
+		&__footer{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+		}
+		&__price{
+			font-weight: 700;
+			font-size: 22px;
+			line-height: 27px;
+		}
+		&__button{
+			padding: 14px 15px 14px 30px;
+			color: #EB5A1E;
+			border: 1px solid #EB5A1E;
+			border-radius: 30px;
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 19px;
+			position: relative;
+			span{
+				&::after{
+					content: '';
+					position: absolute;
+					width:3px;
+					height: 15px;
+					background-color: #EB5A1E;
+					border-radius: 5px;
+					left: 16px;
+					top: 50%;
+					transform: translateY(-50%);
+				}
+				&::before{
+					content: '';
+					position: absolute;
+					width:15px;
+					height: 3px;
+					background-color: #EB5A1E;
+					border-radius: 5px;
+					left: 10px;
+					top: 50%;
+					transform: translateY(-50%);
+				}
+			}
+		}
+	}
+}
